@@ -210,7 +210,7 @@ When non-nil, the value must be one of the symbols accepted by
   :group 'org-mime
   :type 'string)
 
-(defcustom org-mime-instructions-hint "## org-mime hint: Press C-c C-c to commit change.\n"
+(defcustom org-mime-instructions-hint "# org-mime hint: Press C-c C-c to commit change.\n"
   "Instructions inserted in the org-mime org-mode buffer.
 The org-mime org-mode buffer is an org-mode buffer created from calling
 `org-mime-edit-mail-in-org-mode', used to edit the mail body in
